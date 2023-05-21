@@ -5,8 +5,11 @@ namespace LogicProblem
     {
         public static void  Main(string[] args)
         {
-          FibonacciSeries series = new FibonacciSeries();
-            series.Fibonacci();
+          //FibonacciSeries series = new FibonacciSeries();
+           // series.Fibonacci();
+
+            PerfectNumber perfectNumber = new PerfectNumber();
+            perfectNumber.Perfect();
         }
     }
 }
