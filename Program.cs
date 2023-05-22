@@ -14,8 +14,11 @@ namespace LogicProblem
            // PrimeNumber number = new PrimeNumber();
            // number.Prime();
 
-            ReverseNumber reverse = new ReverseNumber();
-            reverse.Reverse();
+            //ReverseNumber reverse = new ReverseNumber();
+            //reverse.Reverse();
+
+            CouponNumber coupon = new CouponNumber();
+            coupon.Coupon(34);
         }
     }
 }
