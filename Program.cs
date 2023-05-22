@@ -17,8 +17,13 @@ namespace LogicProblem
             //ReverseNumber reverse = new ReverseNumber();
             //reverse.Reverse();
 
-            CouponNumber coupon = new CouponNumber();
-            coupon.Coupon(34);
+           // CouponNumber coupon = new CouponNumber();
+           // coupon.Coupon(34);
+
+            StopWatch stop = new StopWatch();
+            stop.Watch();
+
+
         }
     }
 }
