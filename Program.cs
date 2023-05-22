@@ -8,8 +8,11 @@ namespace LogicProblem
           //FibonacciSeries series = new FibonacciSeries();
            // series.Fibonacci();
 
-            PerfectNumber perfectNumber = new PerfectNumber();
-            perfectNumber.Perfect();
+           // PerfectNumber perfectNumber = new PerfectNumber();
+           // perfectNumber.Perfect();
+
+            PrimeNumber number = new PrimeNumber();
+            number.Prime();
         }
     }
 }
