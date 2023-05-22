@@ -11,8 +11,11 @@ namespace LogicProblem
            // PerfectNumber perfectNumber = new PerfectNumber();
            // perfectNumber.Perfect();
 
-            PrimeNumber number = new PrimeNumber();
-            number.Prime();
+           // PrimeNumber number = new PrimeNumber();
+           // number.Prime();
+
+            ReverseNumber reverse = new ReverseNumber();
+            reverse.Reverse();
         }
     }
 }
