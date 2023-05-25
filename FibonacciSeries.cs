@@ -19,13 +19,15 @@ namespace LogicProblem
             //0 1 1 2 3 5 8
             Console.WriteLine(a);
             Console.WriteLine(b);
-            for(int i = 2; i < x; i++)
+            for(int i = 2; i < x; i++) // where 2 represent index 2nd 
             {
                 c = a + b;
                 Console.WriteLine(c);
 
-                a = b;
-                b = c;
+                a = b; // 0 = 1
+                b = c; // 1 = 1 
+                
+               
             }
         }
     }
